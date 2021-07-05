@@ -1,0 +1,10 @@
+{
+    "name": "MAF - Boilerplate",
+    "short_name": "MAF",
+  
+    "background_color": "#06092B",
+    "description": "MAF",
+    "display": "fullscreen",
+    "start_url": "/",
+    "theme_color": "#06092B"
+  }

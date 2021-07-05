@@ -1,0 +1,56 @@
+
+.selection-area {
+  background: rgba(46, 115, 252, 0.11);
+  border: 2px solid rgba(98, 155, 255, 0.81);
+  border-radius: 0.1em;
+  user-select: none;
+}
+
+
+
+/* Toggle B */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #4bdb87;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+
+  src: local(""), url("/fonts/open-sans-v18-latin-300.woff2") format("woff2"),
+    url("/fonts/open-sans-v18-latin-300.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
+  src: local(""),
+    url("/fonts/open-sans-v18-latin-regular.woff2") format("woff2"),
+    url("/fonts/open-sans-v18-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+
+  src: local(""), url("/fonts/open-sans-v18-latin-600.woff2") format("woff2"),
+    url("/fonts/open-sans-v18-latin-600.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-arrow,
+.slick-next {
+  display: none !important;
+}
